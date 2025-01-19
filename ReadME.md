@@ -38,3 +38,7 @@
 
 ## 6. Model Weights Initialization
 - A more robust weight initialization approach was introduced for layers such as `Linear` and `Embedding` using the `_init_weights` method.
+
+## Summary
+- The Model was run in Colab for 5000 epochs and achieved a best loss of 4.59.
+- On HuggingFace the run was limited to 20 Epochs as it was using CPU and had a runtime error after 30 min for running larger epochs 
